@@ -1,6 +1,7 @@
 #include "Ardiuno.h"
 #include <SoftwareSerial.h> \\Bluetooth giris cikis tanımı
 #include <WiFi.h>
+#include <FirebaseESP32.h>
 SoftwareSerial mySerial(4, 6); //HC-06'nın Rx , Tx bacakları tanımlandı
 int kirmizi = 8;
 int sari = 9;
